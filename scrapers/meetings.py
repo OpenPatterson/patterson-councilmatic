@@ -36,7 +36,39 @@ len(row_items), len(row_items_alt)
 #     MINUTES LINK 
 #     SUMMARY LINK 
 # %%
-row_items[0]
-# %%
+row_items[1].find("div", {"class":"RowLink"}).a['title'].split('\r')
+# %%}
 row_items_alt[0]
+# %%
+for item in row_items:
+    date = item.find("div", {"class":"RowLink"}).text.strip()
+    info = item.find("div", {"class":"RowLink"}).a['title'].split('\r')
+    for elem in info:
+        if 'Board' in elem:
+            board = elem.replace('\t', ' ')
+        elif 'Type' in elem:
+            meeting_type = elem.replace('\t', ' ')
+        elif 'Status' in elem:
+            meeting_status = elem.replace('\t', ' ')
+             
+    print(date)
+    print(board)
+    print(meeting_type)
+    print(meeting_status)
+# %%
+for item in row_items_alt:
+    date = item.find("div", {"class":"RowLink"}).text.strip()
+    info = item.find("div", {"class":"RowLink"}).a['title'].split('\r')
+    for elem in info:
+        if 'Board' in elem:
+            board = elem.replace('\t', ' ')
+        elif 'Type' in elem:
+            meeting_type = elem.replace('\t', ' ')
+        elif 'Status' in elem:
+            meeting_status = elem.replace('\t', ' ')
+             
+    print(date)
+    print(board)
+    print(meeting_type)
+    print(meeting_status)
 # %%
