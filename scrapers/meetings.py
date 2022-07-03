@@ -1,4 +1,5 @@
 # %%
+from datetime import datetime
 from bs4 import BeautifulSoup
 import urllib.request
 import ssl
@@ -37,7 +38,12 @@ events = extract_events(PAGE_URL, CAL_DIV_ID, EVENT_CLASS, EVENT_ALT_CLASS)
 
 def parse_events(events_list):
     for event in events_list:
-        date = event.find("div", {"class":"RowLink"}).text.strip()
+        date_string = event.find("div", {"class":"RowLink"}).text.strip()
+        try:
+            date = datetime.strptime(date_string, '%b %d, %Y %I:%M %p')
+        except Exception as e:
+            date = datetime(0,0,0,0,0)
+            print("Error when parsing date(", date_string, "). Error:", e)
         info = event.find("div", {"class":"RowLink"}).a['title'].split('\r')
         for elem in info:
             if 'Board' in elem:
@@ -55,3 +61,4 @@ def parse_events(events_list):
 parse_events(events)
 
 # %%
+# TODO Create event/meeting class?
