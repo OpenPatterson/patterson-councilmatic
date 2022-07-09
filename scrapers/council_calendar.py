@@ -62,9 +62,3 @@ def parse_events(events_list):
         print('\n')
 
 parse_events(events)
-
-# %%
-# TODO Create event/meeting class?
-
-events[0]
-# %%
