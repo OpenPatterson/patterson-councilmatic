@@ -1,4 +1,3 @@
-# %%
 from datetime import datetime
 from bs4 import BeautifulSoup
 import urllib.request
@@ -14,7 +13,6 @@ CAL_DIV_ID = "ContentPlaceholder1_pnlMeetings"
 EVENT_CLASS = "Row MeetingRow"
 EVENT_ALT_CLASS = "Row MeetingRow Alt"
 
-# %%
 # TODO:
 #     GET DATE OF MEETING ✅
 #     CANCELELED OR NOT? ✅
