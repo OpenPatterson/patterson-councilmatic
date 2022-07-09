@@ -8,15 +8,12 @@ if hasattr(ssl, '_create_unverified_context'): # Should only be needed when deve
 
 RSS_FEED_URL = "https://pattersonca.iqm2.com/Services/RSS.aspx?Feed=Calendar"
 PAGE_URL = "https://pattersonca.iqm2.com/Citizens/calendar.aspx"
+MEETING_URL = "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID="
+BASE_URL = "https://pattersonca.iqm2.com/"
 CAL_DIV_ID = "ContentPlaceholder1_pnlMeetings"
 EVENT_CLASS = "Row MeetingRow"
 EVENT_ALT_CLASS = "Row MeetingRow Alt"
 
-headers = {
-    'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.13) Gecko/2009073022 Firefox/3.0.13',
-    'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml; q=0.9,*/*; q=0.8',
-    'Content-Type': 'application/x-www-form-urlencoded'
-}
 # %%
 # TODO:
 #     GET DATE OF MEETING ✅
@@ -45,6 +42,7 @@ def parse_events(events_list):
             date = datetime(0,0,0,0,0)
             print("Error when parsing date(", date_string, "). Error:", e)
         info = event.find("div", {"class":"RowLink"}).a['title'].split('\r')
+        id = event.find("div", {"class":"RowLink"}).find(href=True)['href'].split('ID=')[1]
         for elem in info:
             if 'Board' in elem:
                 board = elem.replace('\t', ' ')
@@ -56,12 +54,17 @@ def parse_events(events_list):
                 meeting_status = elem.replace('\t', ' ')
                 meeting_status = meeting_status.split('Status: ')[1]
                 
-        # print(date)
-        # print(board)
+        print(date)
+        print(id)
+        print(board)
         print(meeting_type)
-        #print(meeting_status)
+        print(meeting_status)
+        print('\n')
 
 parse_events(events)
 
 # %%
 # TODO Create event/meeting class?
+
+events[0]
+# %%
