@@ -51,13 +51,14 @@ def parse_events(events_list):
                 board = board.split('Board: ')[1]
             elif 'Type' in elem:
                 meeting_type = elem.replace('\t', ' ')
+                meeting_type = meeting_type.split('Type: ')[1]
             elif 'Status' in elem:
                 meeting_status = elem.replace('\t', ' ')
                 meeting_status = meeting_status.split('Status: ')[1]
                 
         # print(date)
-        print(board)
-        # print(meeting_type)
+        # print(board)
+        print(meeting_type)
         #print(meeting_status)
 
 parse_events(events)
