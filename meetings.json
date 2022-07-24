@@ -1,0 +1,276 @@
+{
+      "meetings": [
+            {
+                  "date": "Jan 4, 2022 7:00 PM",
+                  "meeting_id": "1327",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1327",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Cancelled"
+            },
+            {
+                  "date": "Jan 18, 2022 6:00 PM",
+                  "meeting_id": "1351",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1351",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting/Closed Session",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jan 25, 2022 6:00 PM",
+                  "meeting_id": "1353",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1353",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting/Closed Session",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Feb 15, 2022 7:00 PM",
+                  "meeting_id": "1330",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1330",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Mar 15, 2022 6:00 PM",
+                  "meeting_id": "1356",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1356",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting/Closed Session",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Mar 22, 2022 7:00 PM",
+                  "meeting_id": "1357",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1357",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Apr 19, 2022 7:00 PM",
+                  "meeting_id": "1334",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1334",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "May 3, 2022 7:00 PM",
+                  "meeting_id": "1335",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1335",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "May 31, 2022 6:00 PM",
+                  "meeting_id": "1359",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1359",
+                  "board": "City Council",
+                  "meeting_type": "Workshop",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jun 21, 2022 6:00 PM",
+                  "meeting_id": "1360",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1360",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting/Closed Session",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jul 5, 2022 7:00 PM",
+                  "meeting_id": "1339",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1339",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jul 19, 2022 6:00 PM",
+                  "meeting_id": "1362",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1362",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting/Closed Session",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Aug 2, 2022 7:00 PM",
+                  "meeting_id": "1341",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1341",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Sep 6, 2022 7:00 PM",
+                  "meeting_id": "1342",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1342",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Oct 4, 2022 7:00 PM",
+                  "meeting_id": "1344",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1344",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Nov 1, 2022 7:00 PM",
+                  "meeting_id": "1346",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1346",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Dec 6, 2022 7:00 PM",
+                  "meeting_id": "1348",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1348",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jan 11, 2022 5:00 PM",
+                  "meeting_id": "1352",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1352",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting/Closed Session",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jan 18, 2022 7:00 PM",
+                  "meeting_id": "1328",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1328",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Feb 1, 2022 7:00 PM",
+                  "meeting_id": "1329",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1329",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Mar 1, 2022 7:00 PM",
+                  "meeting_id": "1331",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1331",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Cancelled"
+            },
+            {
+                  "date": "Mar 15, 2022 7:00 PM",
+                  "meeting_id": "1332",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1332",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Apr 5, 2022 7:00 PM",
+                  "meeting_id": "1333",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1333",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "May 3, 2022 6:00 PM",
+                  "meeting_id": "1358",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1358",
+                  "board": "City Council",
+                  "meeting_type": "Special Meeting/Closed Session",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "May 17, 2022 7:00 PM",
+                  "meeting_id": "1336",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1336",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jun 7, 2022 7:00 PM",
+                  "meeting_id": "1337",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1337",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Cancelled"
+            },
+            {
+                  "date": "Jun 21, 2022 7:00 PM",
+                  "meeting_id": "1338",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1338",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jul 12, 2022 6:00 PM",
+                  "meeting_id": "1361",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1361",
+                  "board": "City Council",
+                  "meeting_type": "Workshop",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Jul 19, 2022 7:00 PM",
+                  "meeting_id": "1340",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1340",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Aug 16, 2022 7:00 PM",
+                  "meeting_id": "1363",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1363",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Sep 20, 2022 7:00 PM",
+                  "meeting_id": "1343",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1343",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Oct 18, 2022 7:00 PM",
+                  "meeting_id": "1345",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1345",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Nov 15, 2022 7:00 PM",
+                  "meeting_id": "1347",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1347",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            },
+            {
+                  "date": "Dec 20, 2022 7:00 PM",
+                  "meeting_id": "1349",
+                  "meeting_url": "https://pattersonca.iqm2.com/Citizens/Detail_Meeting.aspx?ID=1349",
+                  "board": "City Council",
+                  "meeting_type": "Regular Meeting",
+                  "status": "Scheduled"
+            }
+      ]
+}

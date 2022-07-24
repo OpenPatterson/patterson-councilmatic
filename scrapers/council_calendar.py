@@ -1,4 +1,3 @@
-# %%
 from datetime import datetime
 from bs4 import BeautifulSoup
 import urllib.request
@@ -57,6 +56,8 @@ def parse_events(events_list):
         info = event.find("div", {"class": "RowLink"}).a['title'].split('\r')
         id = event.find("div", {"class": "RowLink"}).find(
             href=True)['href'].split('ID=')[1]
+        meeting['meeting_id'] = id
+        meeting['meeting_url'] = MEETING_URL + str(id)
         for elem in info:
             if 'Board' in elem:
                 board = elem.replace('\t', ' ')
@@ -69,10 +70,10 @@ def parse_events(events_list):
                 meeting['status'] = meeting_status.split('Status: ')[1]
         meetings.append(meeting)
     meetings_json['meetings'] = meetings
-
     return meetings_json
 
 
 json_meetings = parse_events(events)
 
-# %%
+output = open("../meetings.json", "w")
+json.dump(json_meetings, output, indent=6)
